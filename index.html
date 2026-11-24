@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recos Mimma - Tienda Pet</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FDFBF7;font-family:'Inter',sans-serif;color:#2B2320;padding:0 0 40px}
+.wrap{max-width:460px;margin:0 auto;padding:0 18px 20px}
+.top{text-align:center;padding:22px 0 10px;font-size:11px;letter-spacing:3px;color:#8A7A6B;font-weight:600}
+.hero{width:100%;border-radius:22px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+.hero img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;object-position:top}
+h1{font-family:'Playfair Display',serif;font-size:34px;text-align:center;margin:16px 0 4px;line-height:1}
+.subtitle{text-align:center;font-size:15px;color:#5A4E45;line-height:1.4;padding:0 10px}
+.handle{text-align:center;color:#8A7A6B;font-size:14px;margin:8px 0 4px}
+.choose{text-align:center;font-size:14px;color:#5A4E45;margin:10px 0 18px}
+.comprar-en{text-align:center;font-size:12px;letter-spacing:2px;color:#8A7A6B;font-weight:600;margin:18px 0 12px}
+.enlace-card{display:flex;align-items:center;justify-content:center;gap:10px;background:#fff;border:1px solid #EDE8E0;border-radius:16px;padding:18px 14px;margin-bottom:12px;text-decoration:none;color:#2B2320;font-weight:700;font-size:17px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.enlace-card img{width:26px;height:26px;border-radius:50%;object-fit:cover;border:1.5px solid #eee}
+.section-title{font-family:'Playfair Display',serif;font-size:26px;text-align:center;margin:22px 0 4px}
+.section-sub{text-align:center;font-size:13px;color:#7A6F65;margin-bottom:16px}
+.card{background:#fff;border:1px solid #EDE8E0;border-radius:18px;padding:12px;display:flex;gap:12px;align-items:center;margin-bottom:12px;box-shadow:0 4px 14px rgba(0,0,0,.04)}
+.card img.prod{width:84px;height:84px;object-fit:cover;border-radius:12px;flex-shrink:0}
+.card-info{flex:1;min-width:0}
+.card-info h3{font-size:15px;line-height:1.25;margin-bottom:10px;font-weight:600}
+.btns{display:flex;gap:8px}
+.btn{position:relative;flex:1;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none;font-size:12px;font-weight:600;line-height:1.25;padding:10px 6px;border-radius:999px}
+.btn-usa{background:#2B2320;color:#fff}
+.btn-esp{background:#fff;color:#2B2320;border:1.5px solid #2B2320}
+.flag{position:absolute;top:-9px;right:-4px;width:24px;height:24px;border-radius:50%;object-fit:cover;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.25);background:#fff}
+.box{background:#fff;border:1px solid #EDE8E0;border-radius:18px;padding:18px;margin:20px 0}
+.box h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px}
+.box p{font-size:14px;line-height:1.6;color:#5A4E45}
+.faq{background:#F7F2EB;border-radius:18px;padding:18px;margin:20px 0}
+.faq h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:12px;text-align:center}
+.faq-card{background:#fff;border:1px solid #EDE8E0;border-radius:14px;padding:14px;margin-bottom:10px}
+.faq-card b{font-size:14px}
+.faq-card p{font-size:13px;color:#5A4E45;margin-top:4px;line-height:1.5}
+.contact{display:flex;flex-direction:column;gap:10px;margin:18px 0}
+.contact a{border-radius:999px;padding:14px;text-align:center;text-decoration:none;font-weight:600;font-size:14px}
+.contact .wa{background:#2B2320;color:#fff}
+.contact .ig{background:#fff;color:#2B2320;border:1.5px solid #2B2320}
+footer{text-align:center;font-size:12px;color:#8A7A6B;line-height:1.6;padding:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">BIENVENIDA</div>
+<div class="hero"><img src="images/perfil.jpg" alt="Recos Mimma"></div>
+<h1>Recos Mimma</h1>
+<div class="subtitle">Recomendados para ti. Los mejores productos de Amazon.</div>
+<div class="handle">@recosmimma</div>
+<div class="choose">Elige tu país y toca para ver en Amazon 👇</div>
+
+<div class="comprar-en">COMPRAR EN</div>
+<a class="enlace-card" href="https://www.amazon.com" target="_blank" rel="noopener">Enlaces Amazon <img src="images/bandeira-usa.jpg" alt="USA"></a>
+<a class="enlace-card" href="https://www.amazon.es" target="_blank" rel="noopener">Enlaces Amazon <img src="images/bandeira-espanha.jpg" alt="España"></a>
+
+<div class="section-title">Nuestros favoritos</div>
+<div class="section-sub">6 recomendaciones que a tu mascota le van a encantar</div>
+
+<div class="card"><img class="prod" src="images/produto1.webp"><div class="card-info"><h3>Ropa de Invierno para Perro</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B09kWmJx8" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B0aQ8yOyR" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+<div class="card"><img class="prod" src="images/produto2.webp"><div class="card-info"><h3>Pañuelos de Navidad para Perro</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B07cNhE0w" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B04h2zBQU" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+<div class="card"><img class="prod" src="images/produto3.webp"><div class="card-info"><h3>Disfraz de Navidad para Perro / Gato</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B0j36QXGA" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B0g1aYsEd" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+<div class="card"><img class="prod" src="images/produto4.webp"><div class="card-info"><h3>Collar LED para Perros, Luminoso</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B08nLuEXa" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B04Xt2EG3" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+<div class="card"><img class="prod" src="images/produto5.webp"><div class="card-info"><h3>Recogedora Portátil para Perro / Gato</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B04D63Zr0" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B00swaTuX" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+<div class="card"><img class="prod" src="images/produto6.webp"><div class="card-info"><h3>Rodillos Quitapelos Mascotas</h3><div class="btns"><a class="btn btn-usa" href="https://link.amazon/B0iooqs6L" target="_blank" rel="noopener">View on Amazon USA<img class="flag" src="images/bandeira-usa.jpg"></a><a class="btn btn-esp" href="https://link.amazon/B0jf4VfTj" target="_blank" rel="noopener">Ver en Amazon España<img class="flag" src="images/bandeira-espanha.jpg"></a></div></div></div>
+
+<div class="box"><h2>Sobre mí</h2><p>¡Hola! Soy Mimma. Aquí encuentras recomendaciones probadas y aprobadas para que tu mascota esté más cómoda, con estilo y feliz. Elige tu país y compra directamente en Amazon con seguridad.</p></div>
+<div class="faq"><h2>Preguntas frecuentes</h2>
+<div class="faq-card"><b>¿Cómo comprar?</b><p>Toca el botón de tu país y finaliza en Amazon</p></div>
+<div class="faq-card"><b>¿El enlace es seguro?</b><p>Sí, compras directamente en el sitio oficial de Amazon</p></div>
+<div class="faq-card"><b>¿Hay para mi país?</b><p>Sí, tenemos enlaces para USA y España en cada producto</p></div>
+</div>
+<div class="contact"><a class="wa" href="#" target="_blank">Hablar por WhatsApp</a><a class="ig" href="#" target="_blank">Seguir en Instagram</a></div>
+<footer>Recos Mimma • Enlaces de afiliado de Amazon - no pagas nada extra por esto</footer>
+</div>
+</body>
+</html>
